@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff; /* Color de fondo de la página */
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-menu li {
+    display: block;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: block;
+    width: fit-content;
+}
+
+.nav-menu a:hover {
+    background-color: #0056b3;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.content {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.sidebar .section {
+    background-color: yellow; /* Cambio el color de fondo a amarillo */
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombreado estilo cuadro */
+    margin-bottom: 20px; /* Espacio entre subtítulos y contenido */
+}
+
+.sidebar h3 {
+    text-align: center; /* Alineación del título "Barra derecha" en el centro */
+    background-color: yellow; /* Cambio el color de fondo a amarillo */
+    padding: 10px;
+}
+
+.sidebar p {
+    background-color: yellow; /* Cambio el color de fondo a amarillo */
+    padding: 10px;
+}
+
+footer {
+    width: 100%;
+    text-align: left;
+    padding: 20px 0;
+    background-color: rgb(0, 242, 255); /* Cambio el color de fondo a celeste */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 200px; /* Mantiene el pie de página alineado con el contenido */
+}
+
+footer h3 {
+    color: #000000; /* Cambio el color del título a negro */
+}
+
+header h1 {
+    background-color: #ffa500; /* Cambio el color de fondo a anaranjado */
+    padding: 10px;
+}
